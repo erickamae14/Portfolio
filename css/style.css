@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Times New Roman', Times, serif; 
+    line-height: 1.8;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+h1 ,h2,h3,h4,h5,h6 {
+    font-weight: 700 ;
+    letter-spacing: 1px;
+    color: #d308a7;
+
+}
+
+a {
+    font-weight: 700;
+    transition: all 0.4s ease;
+}
+
+img {
+    width: 100%;
+
+}
+
+small {
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.navbar-brand{
+    font-weight: 700;
+    font-size: 26px;
+    color: #e65ae6;
+}
+
+.navbar-brand span{
+    color: #e237e2;
+}
+
+.btn{
+    padding: 9px 24px;
+    font-weight: 500;
+}
+
+.btn-brand{
+    background-color: #ce22a9;
+    color: #fff;
+    border-color: #cc2bcc;
+}
+
+/*==============Home=====================*/
+#home {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background: url(../gallery/bg1.jpg) no-repeat center center/cover;
+}
+
+.btn{
+    padding: 10px 25px;
+    border-radius: 100px;
+}
+.btn-white{
+    background-color: #f755c6;
+    border:1px solid #f755c6;
+}
+.btn-pink{
+    border: 1px solid #f755c6;
+    color: #0e0d0d;
+}
+
+
+.logo{
+    height: 60%;
+    width: 80%;
+    display: flex;
+    position: absolute ;
+    margin: 100px;
+}
+/* End Home Area*/
+
+
+/* Project Area */ 
+
+.title-h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.project-area {
+    min-height: 100vh;
+    background: url(../gallery/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.project-area{
+    padding: 4rem 0;
+}
+
+.button-group{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.project-area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 500;
+    text-transform: uppercase;
+    font-weight: bold 500;
+}
+
+.project-area .button-group button + button{
+    padding-left: 5rem;
+}
+
+.project-area .grid .our-project > .title h4{
+    font: normal 700 25px/12px;
+}
+
+.project-area .grid .our-project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b93da5);
+}
+
+
+/* End Project Area */ 
+
+/* Team Area*/
+#team {
+    min-height: 100vh;
+    background: url(../gallery/firstimage.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.team .icon-box {
+    width: 34px;
+    height: 34px;
+    border-radius: 100px;
+    font-size: 24px;
+}
+
+.team-member {
+    background-color: #c90598;
+ }
+ 
+.team-member.even {
+    background-color: #f800ba;
+ }
+ 
+.team-member .hline {
+    width: 70px;
+    height: 2px;
+    margin: 16px auto;
+    background-color: rgba(255, 255, 255, 0.445);
+ }
+ 
+.team-member .team-member-img img,
+.team-member .team-member-img .social-icons {
+    transition: all 0.4s ease;
+ }
+ 
+.team-member .team-member-img {
+    position: relative;
+    overflow: hidden;
+ }
+ 
+.team-member .team-member-img .social-icons {
+    width: 100%;
+    height: 60px;
+    background-color: #f755c6;
+    position: absolute;
+    bottom: -60px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+ }
+ 
+.team-member .team-member-img .social-icons a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    font-size: 24px;
+    color: #fff;
+    border-radius: 100px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+ 
+.team-member .team-member-img .social-icons a:hover {
+    background-color: #fff;
+    color: #f755c6;
+}
+ 
+.team-member:hover .team-member-img .social-icons {
+    bottom: 0;
+}
+ 
+.team-member:hover img {
+    transform: translateY(-60px);
+}
+/* End Team Area*/
+
+.footer-top {
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+ 
+.footer-bottom {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+ 
+footer .footer-links a,
+footer .social-icons a {
+    color: #898fa1;
+}
+ 
+footer .social-icons a {
+    font-size: 24px;
+}
+ 
+footer .footer-links a {
+    display: block;
+    font-weight: 400;
+}
+ 
+footer .social-icons a:hover,
+footer .footer-links a:hover {
+    color: #000000;
+}
+
+.loader {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(243, 230, 230);
+    z-index: 99999;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+
+input.form-control {
+    border-color: transparent;
+    height: 44px;
+}
+
+.form-control {
+    background-color: rgba(0, 0, 0, 0.04);
+    border-color: rgba(0, 0, 0, 0.04);;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: var(--brand);
+}
+
+#cta {
+   background-color: #ec20d1;
+}
+
+
+.footer-top {
+   padding-top: 80px;
+   padding-bottom: 30px;
+}
+
+.footer-bottom {
+   padding-top: 30px;
+   padding-bottom: 30px;
+   border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+footer .footer-links a,
+footer .social-icons a {
+   color: #898fa1;
+}
+
+footer .social-icons a {
+   font-size: 24px;
+}
+
+footer .footer-links a {
+   display: block;
+   font-weight: 400;
+}
+
+footer .social-icons a:hover,
+footer .footer-links a:hover {
+   color: #E93B81;
+}
